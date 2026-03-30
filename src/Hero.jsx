@@ -25,13 +25,17 @@ export default function Hero() {
           <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-2xl px-8 py-5 font-bold text-white">
             Explore Products
           </a>
-          <a className="btn border border-2 border-[#9514FA]  rounded-2xl px-8 py-5 font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+          <a className="btn  border-2 border-[#9514FA]  rounded-2xl px-8 py-5 font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
             Explore Products
           </a>
         </div>
       </div>
-      <div className="img flex-1 flex justify-end order-1 lg:order-2">
-        <img className="w-100  rounded-2xl" src={banner} alt="" />
+      <div className="img flex-1 flex justify-end order-1 lg:order-2 ">
+        <img
+          className="w-[80%]  rounded-2xl  max-h-[70vh]"
+          src={banner}
+          alt=""
+        />
       </div>
     </div>
   );
