@@ -1,7 +1,7 @@
 import { CircleX, Menu, ShoppingCart } from "lucide-react";
 import React, { useState } from "react";
 
-export default function Nav() {
+export default function Nav({ array }) {
   let [btnclick, setbtnclick] = useState(false);
   // console.log(btnclick);
   return (
@@ -57,8 +57,19 @@ export default function Nav() {
           </ul>
         </div>
         <div className="navbar-end  gap-5">
-          <div className="card">
+          <div className="card relative">
             <ShoppingCart />
+            <div
+              className={`${array.length <= 0 && "hidden"} absolute -top-3 left-4`}
+            >
+              <p
+                className={`inline-block p-1 rounded-full h-7 w-7 bg-red-500 `}
+              >
+                <span className="flex justify-center  items-center text-white">
+                  {array.length}
+                </span>
+              </p>
+            </div>
           </div>
           <div className="login">
             <a className="font-semibold" href="">

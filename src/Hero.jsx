@@ -30,9 +30,9 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <div className="img flex-1 flex justify-end order-1 lg:order-2 ">
+      <div className="img flex-1 flex justify-center lg:justify-end order-1 lg:order-2  ">
         <img
-          className="w-[80%]  rounded-2xl  max-h-[70vh]"
+          className="lg:w-[80%]  w-[100%]   rounded-2xl  max-h-[70vh]"
           src={banner}
           alt=""
         />

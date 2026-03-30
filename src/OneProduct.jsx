@@ -1,16 +1,22 @@
-import { library } from "@fortawesome/fontawesome-svg-core";
 import { Check } from "lucide-react";
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
-export default function OneProduct({ api }) {
+export default function OneProduct({ api, setarray, array }) {
   let [btnclick, setbtnclick] = useState(false);
 
-  function btnhendel(api) {
+  function btnhendel(api, setarray, array) {
+    if (array.find((ar) => ar.id === api.id)) {
+      toast.error("Dublate data detected");
+      return;
+    }
     setbtnclick(!btnclick);
-    console.log(api);
+    let newarray = [...array, api];
+    setarray(newarray);
+    toast.success("Successfuly Add Dane");
   }
   return (
-    <div className=" m-auto  border-2 border-neutral-content flex flex-col p-5 rounded-2xl space-y-3 text-gray-600  ">
+    <div className=" w-full m-auto  border-2 border-neutral-content h-120 flex flex-col p-5 rounded-2xl space-y-3 text-gray-600  ">
       <div className="div relative ">
         <div className="  ">
           <span className="h-10 w-10 inline-block rounded-full border-2 border-neutral-500 ">
@@ -46,7 +52,7 @@ export default function OneProduct({ api }) {
         </span>
       </h1>
       <ul className="flex-1">
-        {api.features.slice(0, 5).map((feature, index) => (
+        {api.features.slice(0, 8).map((feature, index) => (
           <li className="flex gap-2" key={index}>
             <span>
               <Check className="text-green-500" />
@@ -57,7 +63,7 @@ export default function OneProduct({ api }) {
       </ul>
       <button
         className={`btn  ${btnclick === false ? "btn-primary" : "btn-secondary"} w-full`}
-        onClick={() => btnhendel(api)}
+        onClick={() => btnhendel(api, setarray, array)}
       >
         {btnclick === false ? "Buy Now" : "Selected"}
       </button>

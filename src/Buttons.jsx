@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Buttons({ sowInfo, setsowInfo }) {
+export default function Buttons({ setsowInfo, array }) {
   let [click, setclick] = useState("Products");
   return (
     <div>
@@ -29,7 +29,7 @@ export default function Buttons({ sowInfo, setsowInfo }) {
             type="radio"
             name="my_tabs_1 "
             className={`tab w-40 rounded-3xl ${click === "Cart" && "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"}  `}
-            aria-label="Cart (0)"
+            aria-label={`Card (${array.length})`}
             onClick={() => {
               setclick("Cart");
               setsowInfo("Cart");

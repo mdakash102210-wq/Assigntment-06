@@ -10,6 +10,7 @@ import Stars from "./Stars";
 import Price from "./Price";
 import Ready from "./assets/Ready";
 import Footer from "./Footer";
+import { ToastContainer } from "react-toastify";
 
 let Apidata = async () => {
   let res = await fetch("Api.json");
@@ -20,17 +21,29 @@ let callapi = Apidata();
 
 function App() {
   let [sowInfo, setsowInfo] = useState("Products");
+  let [array, setarray] = useState([]);
+
   return (
     <>
-      <Nav />
+      <Nav array={array} />
       <Hero />
       <Rating />
-      <Buttons sowInfo={sowInfo} setsowInfo={setsowInfo} />
-      {sowInfo === "Products" ? <Prodects callapi={callapi} /> : <Card />}
+      <Buttons
+        sowInfo={sowInfo}
+        setsowInfo={setsowInfo}
+        array={array}
+        setarray={setarray}
+      />
+      {sowInfo === "Products" ? (
+        <Prodects callapi={callapi} array={array} setarray={setarray} />
+      ) : (
+        <Card array={array} setarray={setarray} />
+      )}
       <Stars />
       <Price />
       <Ready />
       <Footer />
+      <ToastContainer />
     </>
   );
 }
