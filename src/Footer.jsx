@@ -8,7 +8,7 @@ export default function Footer() {
     <div className="bg-black text-white">
       <div className="text grid lg:grid-cols-6 grid-rows-2 gap-5 w-11/12 m-auto pt-20 pb-3 border-b-2 border-neutral-content text-gray-400">
         <div className="col-span-2">
-          <h1 className="text-3xl font-bold mb-3 ">DifiTools</h1>
+          <h1 className="text-3xl font-bold mb-3 text-white">DifiTools</h1>
           <p className="leading-7">
             Premium digital tools for creators, <br /> professionals, and
             businesses. Work smarter <br /> with our suite of powerful tools.
@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
         <div>
           <ul className=" space-y-2">
-            <li className="font-bold text-xl">Product</li>
+            <li className="font-bold text-xl text-white">Product</li>
             <li>Features</li>
             <li>Pricing</li>
             <li>Templates</li>
@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
         <div>
           <ul className=" space-y-2">
-            <li className="font-bold text-xl">Company</li>
+            <li className="font-bold text-xl text-white">Company</li>
 
             <li>About</li>
             <li>Blog</li>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
         <div>
           <ul className=" space-y-2">
-            <li className="font-bold text-xl">Resources</li>
+            <li className="font-bold text-xl text-white">Resources</li>
             <li>Documentation</li>
             <li>Help Center</li>
             <li>Community</li>
@@ -43,7 +43,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="space-y-2">
-          <h1 className="font-bold text-xl">Social Links</h1>
+          <h1 className="font-bold text-xl text-white">Social Links</h1>
           <div className="flex  gap-3">
             <div className="bg-white   rounded-full border border-gray-300">
               <FaInstagram size={40} className="p-1 text-black" />
