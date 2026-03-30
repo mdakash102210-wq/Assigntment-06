@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 export default function Nav() {
   let [btnclick, setbtnclick] = useState(false);
-  console.log(btnclick);
+  // console.log(btnclick);
   return (
     <div className="w-11/12 m-auto">
       <div className="navbar bg-base-100">

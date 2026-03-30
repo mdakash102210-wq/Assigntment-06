@@ -6,8 +6,8 @@ import { FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className="bg-black text-white">
-      <div className="text flex justify-between w-11/12 m-auto pt-20 pb-3 border-b-2 border-neutral-content text-gray-400">
-        <div>
+      <div className="text grid lg:grid-cols-6 grid-rows-2 gap-5 w-11/12 m-auto pt-20 pb-3 border-b-2 border-neutral-content text-gray-400">
+        <div className="col-span-2">
           <h1 className="text-3xl font-bold mb-3 ">DifiTools</h1>
           <p className="leading-7">
             Premium digital tools for creators, <br /> professionals, and
@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="text-white flex justify-between py-5 opacity-50 w-11/12 m-auto">
+      <div className="text-white flex flex-col lg:flex-row justify-between py-5 opacity-50 w-11/12 m-auto">
         <div className="text">
           <p className="">© 2026 Digitools. All rights reserved.</p>
         </div>

@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "description": "Perfect for individuals just getting started with basic needs.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "free",
+    "features": [
+      "5 projects",
+      "Basic templates",
+      "Email support",
+      "1 GB storage",
+      "Community access"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 2,
+    "name": "Basic",
+    "description": "Great for freelancers and solo creators building their brand.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "new",
+    "features": [
+      "20 projects",
+      "50+ templates",
+      "Priority email support",
+      "10 GB storage",
+      "Export to PDF",
+      "Custom domain"
+    ],
+    "icon": "⚡"
+  },
+  {
+    "id": 3,
+    "name": "Pro",
+    "description": "Ideal for professionals who need advanced tools and integrations.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "features": [
+      "Unlimited projects",
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "50 GB storage",
+      "Analytics dashboard",
+      "API access"
+    ],
+    "icon": "💎"
+  },
+  {
+    "id": 4,
+    "name": "Business",
+    "description": "Built for growing teams that need collaboration and control.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "features": [
+      "Unlimited projects",
+      "200+ templates",
+      "Team collaboration",
+      "Advanced analytics",
+      "500 GB storage",
+      "Priority support",
+      "SSO login",
+      "Custom branding"
+    ],
+    "icon": "🏢"
+  },
+  {
+    "id": 5,
+    "name": "Enterprise",
+    "description": "Full-scale solution for large organizations with custom requirements.",
+    "price": 199.99,
+    "period": "monthly",
+    "tag": "premium",
+    "features": [
+      "Unlimited everything",
+      "Dedicated account manager",
+      "Custom integrations",
+      "SLA guarantee",
+      "Unlimited storage",
+      "On-premise deployment",
+      "Advanced security",
+      "24/7 phone support"
+    ],
+    "icon": "🏆"
+  },
+  {
+    "id": 6,
+    "name": "Annual Pro",
+    "description": "All Pro features at a discounted yearly rate — save 30%.",
+    "price": 167.99,
+    "period": "yearly",
+    "tag": "best value",
+    "features": [
+      "Unlimited projects",
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "50 GB storage",
+      "Analytics dashboard",
+      "API access",
+      "2 months free"
+    ],
+    "icon": "🎯"
+  },
+  {
+    "id": 7,
+    "name": "Annual Business",
+    "description": "Full business suite billed annually with significant savings.",
+    "price": 479.99,
+    "period": "yearly",
+    "tag": "popular",
+    "features": [
+      "Unlimited projects",
+      "200+ templates",
+      "Team collaboration (up to 20)",
+      "Advanced analytics",
+      "1 TB storage",
+      "Priority support",
+      "SSO login",
+      "Custom branding",
+      "2 months free"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 8,
+    "name": "Lifetime Access",
+    "description": "Pay once and enjoy full Pro features forever. No recurring fees.",
+    "price": 299.99,
+    "period": "one-time",
+    "tag": "limited offer",
+    "features": [
+      "Unlimited projects",
+      "All current templates",
+      "All future updates",
+      "100 GB storage",
+      "Export to PDF & DOCX",
+      "Lifetime support",
+      "No subscription needed"
+    ],
+    "icon": "♾️"
+  },
+  {
+    "id": 9,
+    "name": "Student",
+    "description": "Specially priced plan for students and educational institutions.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "features": [
+      "15 projects",
+      "60+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "20 GB storage",
+      "Academic resources",
+      "Career tools"
+    ],
+    "icon": "🎓"
+  }
+]
