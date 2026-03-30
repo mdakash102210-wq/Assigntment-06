@@ -9,6 +9,7 @@ import Rating from "./Rating";
 import Stars from "./Stars";
 import Price from "./Price";
 import Ready from "./assets/Ready";
+import Footer from "./Footer";
 
 function App() {
   let [sowInfo, setsowInfo] = useState("Products");
@@ -22,6 +23,7 @@ function App() {
       <Stars />
       <Price />
       <Ready />
+      <Footer />
     </>
   );
 }
