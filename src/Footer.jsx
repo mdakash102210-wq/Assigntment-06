@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
         <ul className="flex gap-3">
           <li>Privacy Policy </li>
-          <li>Terms of Service </li>
+          <li>Terms of Services </li>
           <li>Cookies </li>
         </ul>
       </div>
