@@ -76,7 +76,7 @@ export default function Nav({ array }) {
               Login
             </a>
           </div>
-          <div className="button">
+          <div className="button hidden md:block">
             <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-2xl px-8 font-bold text-white">
               Get Started
             </a>
