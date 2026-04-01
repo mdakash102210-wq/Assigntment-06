@@ -36,7 +36,7 @@ UI ডিজাইন ও লেআউট তৈরি করা
 রেস
 
 🙋‍♂️ ডেভেলপার
-👤 নাম: Md Akash
+👤 নাম: ------
 🔗 GitHub: https://github.com/mdakash102210-wq?tab=repositories
 💬 মতামত
 
