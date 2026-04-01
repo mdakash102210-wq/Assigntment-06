@@ -5,7 +5,7 @@ export default function Nav({ array }) {
   let [btnclick, setbtnclick] = useState(false);
   // console.log(btnclick);
   return (
-    <div className="w-11/12 m-auto">
+    <div className="w-11/12 m-auto sticky top-0 z-1">
       <div className="navbar bg-base-100">
         <div className="navbar-start" onClick={() => setbtnclick(!btnclick)}>
           <div className="dropdown">
